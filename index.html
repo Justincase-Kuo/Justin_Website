@@ -10,6 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
 		<script>
 		//宣告預設表單內容為空 （你想要的話也可以加東西）
 			var initSubject='',initBody='';
@@ -58,18 +61,42 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2>Hey! I'm Justin Yiting Kuo 😁 <br />
+							<h2 class="main-title">Hey! I'm Justin Yiting Kuo 😁 <br />
 							  </h2>
 						</header>
 						<div >
 							<img class="photo-top" src="images/photo_top.png">
 						</div>
-						<p>Born and raised in Taichung, Taiwan. I am now studying master in Paris<br>
-						</p>
-						<a href="images/CV_yitingkuo.pdf" download="Curriculum Vitae"></a>
+						<h4>Born and raised in Taichung, Taiwan. I am now studying master in Paris<br>
+						</h4>
+
 						<ul class="actions">
 							<li><a href="#experience" class="button">Learn More</a></li>
+							<li><a class="cv-download" href="images/CV_yitingkuo.pdf" download="CV_yitingkuo">Curriculum Vitae</a></li>
 						</ul>
+
+					</section>
+
+				<!-- education -->
+
+					<section>
+						<header class="major">
+							<h2 class="section-title">Education<br />
+							  </h2>
+
+						</header>
+						<div class="flex-container">
+							<img class="flex-img essec-logo" src="images/essec.png">
+							<img class="flex-img centrale-logo" src="images/centrale.png">
+							<div class="flex-text"><h3>Data Science and Business Analytics</h3></div>
+
+							<img class="flex-img ntu-logo" src="images/ntu.png">
+							<div class="flex-text"><h3>Economics</h3><h4 style="padding: 3px 1px 0px 10px;">  Political Science Minor</h4></div>
+
+
+						</div>
+
+
 					</section>
 
 				<!-- experience -->
@@ -122,24 +149,7 @@
 
 					</section>
 
-				<!-- education -->
 
-					<section>
-						<header class="major">
-							<h2 class="section-title">Education<br />
-							  </h2>
-
-						</header>
-						<h3>Economics, National Taiwan University</h3>
-						<p>Minor in Political Science</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
-						<ul class="">
-							<li>E.SUN Securities Co.</li>
-						</ul>
-
-					</section>
 
 
 				<!-- Three -->
@@ -148,12 +158,12 @@
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/esun-project.png" class="image fit thumb"><img src="images/esun-project.png" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
+								<a href="https://github.com/Justincase-Kuo/fintech-esun-group4-breach" target="_blank"><h3>Anomaly Detection: Application on stock breach</h3></a>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
+								<a href="images/thesis.png" class="image fit thumb"><img src="images/thesis.png" alt="" /></a>
+								<a href="images/minimum_wage.pdf" download><h3>Econometrics Empirical Study</h3></a>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
