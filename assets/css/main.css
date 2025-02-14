@@ -174,14 +174,14 @@ input, select, textarea {
 	}
 
 	.intro-title-1 {
-	    font-size: 2em;
+	    font-size: 1.5em;
         color: #556B2F;
         font-weight: bold;
         margin-bottom: 0px;
 	}
 
 	.intro-title-2 {
-	    font-size: 1.5em;
+	    font-size: 1.2em;
         font-weight: bold;
         top-margin: 0px;
 	}
@@ -2220,17 +2220,24 @@ input, select, textarea {
 
 
         .image.fubon-logo {
-            width: 13%;
+            width: 9%;
             height: auto;
             padding: 0 5% 0 0;
             z-index: -1;
         }
         .image.esun-logo {
-            width: 15%;
+            width: 8%;
             height: auto;
             margin: 0 15px 10px 0;
             z-index: -1;
         }
+
+		.image.groover-logo {
+			width: 12%;
+            height: auto;
+            margin: 0 15px 10px 0;
+            z-index: -1;
+		}
 
         .ntu-logo {
             width: 28%;

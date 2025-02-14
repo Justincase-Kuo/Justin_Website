@@ -51,7 +51,7 @@
 							<img src="images/ID_photo.jpg" alt="my profile photo" />
 						</div>
 					</a>
-					<h1><strong id="header-name">Yiting Kuo  </strong><br>(Wanna be a) Data Scientist</h1>
+					<h1><strong id="header-name">Yiting Kuo  </strong><br>Data Scientist & Engineer</h1>
 				</div>
 			</header>
 
@@ -64,15 +64,16 @@
 							<h2 class="main-title">Hey! I'm Justin Yiting Kuo 😁 <br />
 							  </h2>
 						</header>
-						<div >
-							<img class="photo-top" src="images/photo_top.png">
-						</div>
+
 						<h4>Born and raised in Taichung, Taiwan. I am now studying master in Paris<br>
 						</h4>
+						<h5>Originaire de Taïwan, j'étudie et travaille actuellement à Paris.<br>
+						</h5>
+
 
 						<ul class="actions">
 							<li><a href="#experience" class="button">Learn More</a></li>
-							<li><a class="cv-download" href="images/CV_yitingkuo.pdf" download="CV_yitingkuo">Curriculum Vitae</a></li>
+							<li><a class="cv-download" href="images/CV_yitingkuo_20250214.pdf" download="CV_yitingkuo">Curriculum Vitae</a></li>
 						</ul>
 
 					</section>
@@ -106,6 +107,30 @@
 							<h2 class="section-title">Experience<br />
 							  </h2>
 						</header>
+						
+						<div>
+							<div class="flex-container flex-left">
+								<img class='image groover-logo' src="images/groover.svg">
+
+								<div class="title-block">
+									<h4 class="intro-title-1">Groover</h4>
+									<h4 class="intro-title-2">Data Engineer Intern</h4>
+								</div>
+							</div>
+
+							<div class="description-block">
+								<ul class="intro-text">
+									<li>Optimized dbt models for data transformation, improving reporting efficiency.</li>
+									<li>Replicated data sources to the warehouse using AWS DMS and Terraform.</li>
+									<li>Orchestrated ETL workflows with Airflow, ensuring reliable data processing.</li>
+									<li>Implemented Elementary monitoring to track pipeline performance and ensure data quality.</li>
+									<li>Created CI/CD pipelines to automate the deployment of dbt models.</li>
+									
+
+								</ul>
+							</div>
+						</div>
+						
 						<div>
 							<div class="flex-container flex-left">
 								<img class='image fubon-logo' src="images/fubon.svg">
@@ -127,21 +152,19 @@
 
 
 						<div>
-							<div class="flex-container flex-right">
+							<div class="flex-container flex-left">
 								<img class='image esun-logo' src="images/esun.png">
 
 								<div class="title-block">
 									<h4 class="intro-title-1">E.SUN Securities Co.</h4>
-									<h4 class="intro-title-2">Machine Learning Intern</h4>
+									<h4 class="intro-title-2">Data Scientist Intern</h4>
 								</div>
 							</div>
 
-							<div class="block-right">
-								<ul class="intro-text block-right">
-									<li>Assisted pre-processing of customer trading data.</li>
-									<li>Used data of trading in E.Sun Securities Co. to train the tree-based model.</li>
-									<li>Detected 45% more anomalies with new model and improved performance matrix.</li>
-									<li>Operated Chat-bot to alert users for their breach-risky trading.</li>
+							<div class="description-block">
+								<ul class="intro-text">
+									<li>Preprocessing and feature engineering of customer data for stock trading.</li>
+									<li>Deployed ensemble models for customer segmentation and anomaly detection, achieving an accuracy of 82%.</li>
 								</ul>
 							</div>
 						</div>
@@ -157,15 +180,30 @@
 						<hr class="second"/>
 						<h2>Recent Work</h2>
 						<div class="row">
+
+
+							
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/mlns-project.png" class="image fit thumb"><img src="images/mlns-project.png" alt="" /></a>
+								<a href="https://github.com/Justincase-Kuo/MLNS-Reddit-GNN/tree/main" target="_blank"><h3>Predicting Reddit Interaction: Graph Neural Network</h3></a>
+								<p>analyzes sentiment dynamics in Reddit’s network of subreddits through the lens of hyperlinks</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/bi-project.png" class="image fit thumb"><img src="images/bi-project.png" alt="" /></a>
+								<a href="images/bi_project.pdf" target="_blank"><h3>Unveiling the Factors Impacting Network Quality of Mobile Phones: Based on the investigation of ARCEP</h3></a>
+								<p>Analysis on network quality in Paris using ARCEP data</p>
+							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/esun-project.png" class="image fit thumb"><img src="images/esun-project.png" alt="" /></a>
 								<a href="https://github.com/Justincase-Kuo/fintech-esun-group4-breach" target="_blank"><h3>Anomaly Detection: Application on stock breach</h3></a>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<p>An alerting AI to help new comers invest wisely</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/thesis.png" class="image fit thumb"><img src="images/thesis.png" alt="" /></a>
 								<a href="images/minimum_wage.pdf" download><h3>Econometrics Empirical Study</h3></a>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<p>Use DiD method to estimate policy effect of minimum wage in Taiwan</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/ntu_plus_academy.png" class="image fit thumb"><img src="images/ntu_plus_academy.png" alt="" /></a>
